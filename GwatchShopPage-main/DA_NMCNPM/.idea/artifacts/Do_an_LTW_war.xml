@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Do_an_LTW:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Do_an_LTW</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="lap_06_LoadData-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Do_an_LTW:war exploded" />
+    </root>
+  </artifact>
+</component>

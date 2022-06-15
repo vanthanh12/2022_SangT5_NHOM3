@@ -1,0 +1,306 @@
+create table products (
+ma_sp int not null,
+ma_loaisp varchar(50) null,
+ten_sp varchar(50) null,
+img1 VARBINARY(512) null,
+img2 VARBINARY(512) null,
+brand varchar(50) null,
+price float(20) null,
+compare_price float(20) null,
+sale varchar(20) null,
+quantity int(11) null,
+CONSTRAINT prim_pm PRIMARY KEY (ma_sp)
+)
+
+
+INSERT INTO products (ma_sp,ma_loaisp,ten_sp,img1,img2,brand,price,compare_price,sale,quantity)  VALUE
+(01,"nu","ĐỒNG HỒ NAM SKMEI CÓ LỊCH MỎ RỘNG","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/1_8dc682692fec4967843d81915f827888_large.jpg","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/2_38d65a0a0c1a483cbeb02046b329a2ed_large.jpg","Rolex",
+700000,350000,"50%",1);
+
+INSERT INTO products (ma_sp,ma_loaisp,ten_sp,img1,img2,brand,price,compare_price,sale,quantity)  VALUE
+(02,"nam","ĐỒNG HỒ NAM SKMEI CỰC ĐẸP CỰC CUỐN HÚT","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/1_96f3e1495bac48dd831ec86597085a04_large.jpg","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/2_0692671689314bd8aeeaf160563abacd_large.jpg","Rolex",
+800000,500000,"38%",1);
+
+INSERT INTO products (ma_sp,ma_loaisp,ten_sp,img1,img2,brand,price,compare_price,sale,quantity) VALUE
+(03,"nu","ĐỒNG HỒ NỮ BEESISTER MẶT ĐÍNH ĐÁ CỨC SANG","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/1_e7ec8d67eafb460db8865a5747c89a24_large.jpg","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/2_8e8c976ba38243b098a8b827273cb5bc_large.jpg","Rolex",
+600000,390000,"35%",1);
+
+INSERT INTO products  (ma_sp,ma_loaisp,ten_sp,img1,img2,brand,price,compare_price,sale,quantity)  VALUE
+(04,"nu","ĐỒNG HỒ NỮ BEESISTER MÀU VÀNG MẶT TRÒN CỰC SANG","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/6_f20ebeefb7744b3e959e44c455b9387a_large.jpg","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/7_88220065b60b45c29c0aa3ca9f76c6c4_large.jpg","Rolex",
+600000,300000,"35%",1);
+
+INSERT INTO products  (ma_sp,ma_loaisp,ten_sp,img1,img2,brand,price,compare_price,sale,quantity) VALUE
+(05,"nam","ĐỒNG HỒ NỮ BS MẶT CHỮ NHẬT GẮN ĐÁ CỰC CHẤT","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/4_1f54cfe4261847f5806805b49ff2c0a3_large.jpg","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/efeb2317f2344d244abdb6b0dafb6f8d_large.jpg","Rolex",
+600000,390000,"35%",1);
+
+INSERT INTO products  (ma_sp,ma_loaisp,ten_sp,img1,img2,brand,price,compare_price,sale,quantity)  VALUE
+(06,"nam","ĐỒNG HỒ NỮ HALEI MẶT TRẮNG CỰC SANG TRỌNG","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/2_7453709ca9af4307986c2baae91c627e_large.jpg","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/1_d7ec19b25d62457fa22b91efb86fc494_large.jpg","Rolex",
+430000,300000,"30%",1);
+
+INSERT INTO products  (ma_sp,ma_loaisp,ten_sp,img1,img2,brand,price,compare_price,sale,quantity)  VALUE
+(07,"nu","ĐỒNG HỒ NỮ SKMEI 1281 DÂY DA MÀU ĐỎ GẮN ĐÁ CỰC XINH","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/593f6b19f853ce46eeb4d29e-contest_large.jpg","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/593f6b19f853ce46eeb4d29e-2-contest_large.jpg","Rolex",
+540000,350000,"35%",1);
+
+INSERT INTO products  (ma_sp,ma_loaisp,ten_sp,img1,img2,brand,price,compare_price,sale,quantity)  VALUE
+(08,"nam","ĐỒNG HỒ SKMEI DÂY DA MẪU DH03 CHẠY FULL KIM","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/1_cfd2a2d52eb44e74b0ad5da426f861a7_large.jpg","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/2_78b0f26f2bca4105b2b1cc08f29414e0_large.jpg","Rolex",
+1000000,500000,"50%",1);
+
+INSERT INTO products  (ma_sp,ma_loaisp,ten_sp,img1,img2,brand,price,compare_price,sale,quantity)  VALUE
+(09,"nam","ĐỒNG HỒ NỮ HALEI MẶT TRẮNG CỰC SANG TRỌNG","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/2_7453709ca9af4307986c2baae91c627e_large.jpg","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/1_d7ec19b25d62457fa22b91efb86fc494_large.jpg","Rolex",
+430000,300000,"30%",1);
+
+INSERT INTO products  (ma_sp,ma_loaisp,ten_sp,img1,img2,brand,price,compare_price,sale,quantity) VALUE
+(10,"nu","ĐỒNG HỒ NỮ SKMEI 1281 DÂY DA MÀU ĐỎ GẮN ĐÁ CỰC XINH","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/593f6b19f853ce46eeb4d29e-contest_large.jpg","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/593f6b19f853ce46eeb4d29e-2-contest_large.jpg","Rolex",
+540000,350000,"35%",1);
+
+INSERT INTO products  (ma_sp,ma_loaisp,ten_sp,img1,img2,brand,price,compare_price,sale,quantity) VALUE
+(11,"nu","ĐỒNG HỒ SKMEI DÂY DA MẪU DH03 CHẠY FULL KIM","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/1_cfd2a2d52eb44e74b0ad5da426f861a7_large.jpg","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/2_78b0f26f2bca4105b2b1cc08f29414e0_large.jpg","Rolex",
+1000000,500000,"50%",1);
+
+INSERT INTO products  (ma_sp,ma_loaisp,ten_sp,img1,img2,brand,price,compare_price,sale,quantity)  VALUE
+(12,"nam","ĐỒNG HỒ NỮ HALEI MẶT TRẮNG CỰC SANG TRỌNG","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/2_7453709ca9af4307986c2baae91c627e_large.jpg","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/1_d7ec19b25d62457fa22b91efb86fc494_large.jpg","Rolex",
+430000,300000,"30%",1);
+
+INSERT INTO products  (ma_sp,ma_loaisp,ten_sp,img1,img2,brand,price,compare_price,sale,quantity)  VALUE
+(13,"nam","ĐỒNG HỒ NỮ SKMEI 1281 DÂY DA MÀU ĐỎ GẮN ĐÁ CỰC XINH","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/593f6b19f853ce46eeb4d29e-contest_large.jpg","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/593f6b19f853ce46eeb4d29e-2-contest_large.jpg","Rolex",
+540000,350000,"35%",1);
+
+
+create table products_all  (
+id int not null,
+name varchar(50) null,
+img1 VARBINARY(512) null,
+img2 VARBINARY(512) null,
+brand varchar(50) null,
+price float(20) null,
+compare_price float(20) null,
+sale varchar(20) null,
+CONSTRAINT prim_pm PRIMARY KEY (id)
+)
+
+INSERT INTO products_all (id,name,img1,img2,brand,price,compare_price,sale)  VALUE
+(01,"ĐỒNG HỒ NAM SKMEI CÓ LỊCH MỎ RỘNG","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/1_8dc682692fec4967843d81915f827888_large.jpg","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/2_38d65a0a0c1a483cbeb02046b329a2ed_large.jpg","Rolex",
+700000,350000,"50%")
+
+INSERT INTO products_all (id,name,img1,img2,brand,price,compare_price,sale)  VALUE
+(02,"ĐỒNG HỒ NAM SKMEI CỰC ĐẸP CỰC CUỐN HÚT","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/1_96f3e1495bac48dd831ec86597085a04_large.jpg","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/2_0692671689314bd8aeeaf160563abacd_large.jpg","Rolex",
+800000,500000,"38%")
+
+INSERT INTO products_all (id,name,img1,img2,brand,price,compare_price,sale)  VALUE
+(03,"ĐỒNG HỒ NỮ BEESISTER MẶT ĐÍNH ĐÁ CỨC SANG","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/1_e7ec8d67eafb460db8865a5747c89a24_large.jpg","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/2_8e8c976ba38243b098a8b827273cb5bc_large.jpg","Rolex",
+600000,390000,"35%")
+
+INSERT INTO products_all (id,name,img1,img2,brand,price,compare_price,sale)  VALUE
+(04,"ĐỒNG HỒ NỮ BEESISTER MÀU VÀNG MẶT TRÒN CỰC SANG","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/6_f20ebeefb7744b3e959e44c455b9387a_large.jpg","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/7_88220065b60b45c29c0aa3ca9f76c6c4_large.jpg","Rolex",
+600000,300000,"35%")
+
+INSERT INTO products_all (id,name,img1,img2,brand,price,compare_price,sale)  VALUE
+(05,"ĐỒNG HỒ NỮ BS MẶT CHỮ NHẬT GẮN ĐÁ CỰC CHẤT","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/4_1f54cfe4261847f5806805b49ff2c0a3_large.jpg","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/efeb2317f2344d244abdb6b0dafb6f8d_large.jpg","Rolex",
+600000,390000,"35%")
+
+INSERT INTO products_all (id,name,img1,img2,brand,price,compare_price,sale)  VALUE
+(06,"ĐỒNG HỒ NỮ HALEI MẶT TRẮNG CỰC SANG TRỌNG","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/2_7453709ca9af4307986c2baae91c627e_large.jpg","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/1_d7ec19b25d62457fa22b91efb86fc494_large.jpg","Rolex",
+430000,300000,"30%")
+
+INSERT INTO products_all (id,name,img1,img2,brand,price,compare_price,sale)  VALUE
+(07,"ĐỒNG HỒ NỮ SKMEI 1281 DÂY DA MÀU ĐỎ GẮN ĐÁ CỰC XINH","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/593f6b19f853ce46eeb4d29e-contest_large.jpg","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/593f6b19f853ce46eeb4d29e-2-contest_large.jpg","Rolex",
+540000,350000,"35%")
+
+INSERT INTO products_all (id,name,img1,img2,brand,price,compare_price,sale)  VALUE
+(08,"ĐỒNG HỒ SKMEI DÂY DA MẪU DH03 CHẠY FULL KIM","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/1_cfd2a2d52eb44e74b0ad5da426f861a7_large.jpg","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/2_78b0f26f2bca4105b2b1cc08f29414e0_large.jpg","Rolex",
+1000000,500000,"50%")
+
+
+INSERT INTO products_all (id,name,img1,img2,brand,price,compare_price,sale)  VALUE
+(09,"ĐỒNG HỒ NAM SKMEI CÓ LỊCH MỎ RỘNG","50%","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/1_8dc682692fec4967843d81915f827888_large.jpg","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/2_38d65a0a0c1a483cbeb02046b329a2ed_large.jpg","Rolex",
+700000,350000)
+
+INSERT INTO products_all (id,name,img1,img2,brand,price,compare_price,sale)  VALUE
+(10,"ĐỒNG HỒ NAM SKMEI CỰC ĐẸP CỰC CUỐN HÚT","38%","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/1_96f3e1495bac48dd831ec86597085a04_large.jpg","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/2_0692671689314bd8aeeaf160563abacd_large.jpg","Rolex",
+800000,500000)
+
+INSERT INTO products_all (id,name,img1,img2,brand,price,compare_price,sale)  VALUE
+(11,"ĐỒNG HỒ NỮ BEESISTER MẶT ĐÍNH ĐÁ CỨC SANG","35%","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/1_e7ec8d67eafb460db8865a5747c89a24_large.jpg","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/2_8e8c976ba38243b098a8b827273cb5bc_large.jpg","Rolex",
+600000,390000)
+
+INSERT INTO products_all (id,name,img1,img2,brand,price,compare_price,sale)  VALUE
+(12,"ĐỒNG HỒ NỮ BEESISTER MÀU VÀNG MẶT TRÒN CỰC SANG","35%","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/6_f20ebeefb7744b3e959e44c455b9387a_large.jpg","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/7_88220065b60b45c29c0aa3ca9f76c6c4_large.jpg","Rolex",
+600000,300000)
+
+INSERT INTO products_all (id,name,img1,img2,brand,price,compare_price,sale)  VALUE
+(13,"ĐỒNG HỒ NỮ BS MẶT CHỮ NHẬT GẮN ĐÁ CỰC CHẤT","35%","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/4_1f54cfe4261847f5806805b49ff2c0a3_large.jpg","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/efeb2317f2344d244abdb6b0dafb6f8d_large.jpg","Rolex",
+600000,390000)
+
+INSERT INTO products_all (id,name,img1,img2,brand,price,compare_price,sale)  VALUE
+(14,"ĐỒNG HỒ NỮ HALEI MẶT TRẮNG CỰC SANG TRỌNG","30%","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/2_7453709ca9af4307986c2baae91c627e_large.jpg","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/1_d7ec19b25d62457fa22b91efb86fc494_large.jpg","Rolex",
+430000,300000)
+
+INSERT INTO products_all (id,name,img1,img2,brand,price,compare_price,sale)  VALUE
+(15,"ĐỒNG HỒ NỮ SKMEI 1281 DÂY DA MÀU ĐỎ GẮN ĐÁ CỰC XINH","35%","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/593f6b19f853ce46eeb4d29e-contest_large.jpg","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/593f6b19f853ce46eeb4d29e-2-contest_large.jpg","Rolex",
+540000,350000)
+
+INSERT INTO products_all (id,name,img1,img2,brand,price,compare_price,sale)  VALUE
+(16,"ĐỒNG HỒ SKMEI DÂY DA MẪU DH03 CHẠY FULL KIM","50%","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/1_cfd2a2d52eb44e74b0ad5da426f861a7_large.jpg","http://localhost:8080/Do_an_LTW/product.hstatic.net/1000177652/product/2_78b0f26f2bca4105b2b1cc08f29414e0_large.jpg","Rolex",
+1000000,500000)
+
+
+CREATE TABLE users (
+ma_tai_khoan int not null,
+ten_tai_khoan VARCHAR(50) null,
+mat_khau varchar(50) null,
+ma_nhom_tk varchar(50) null,
+trang_thai int(11) null
+)
+
+INSERT INTO users (ma_tai_khoan,ten_tai_khoan,mat_khau,ma_nhom_tk,trang_thai) VALUES
+(1, "doi", "doi123", "gr1001",1);
+
+INSERT INTO users (ma_tai_khoan,ten_tai_khoan,mat_khau,ma_nhom_tk,trang_thai) VALUES
+(2, "tino", "tino123", "gr1001",1);
+INSERT INTO users (ma_tai_khoan,ten_tai_khoan,mat_khau,ma_nhom_tk,trang_thai) VALUES
+(3, "tuan", "tuan123", "gr1002",1);
+INSERT INTO users (ma_tai_khoan,ten_tai_khoan,mat_khau,ma_nhom_tk,trang_thai) VALUES
+(4, "suri", "suri123", "gr1002",1);
+INSERT INTO users (ma_tai_khoan,ten_tai_khoan,mat_khau,ma_nhom_tk,trang_thai) VALUES
+(5, "duy", "duy123", "gr1003",1);
+INSERT INTO users (ma_tai_khoan,ten_tai_khoan,mat_khau,ma_nhom_tk,trang_thai) VALUES
+(6, "gthtt", "gnhtt123", "gr1003",1);
+
+CREATE TABLE customers (
+	ma_kh int not null PRIMARY KEY AUTO_INCREMENT,
+	ten_kh VARCHAR(50) null,
+	mat_khau varchar(50) null,
+	ngay_sinh varchar(50) null,
+	gioi_tinh varchar(50) null,
+	email varchar(50) not null,
+	sdt varchar(50) null,
+	dia_chi varchar(50) null
+	)
+
+	INSERT INTO customers (ma_kh,ten_kh,mat_khau,ngay_sinh,gioi_tinh,email,sdt,dia_chi) VALUES
+	(1, "Tran Van Doi", "doi123", "10/11/2000", "Nam", "tino@gmail.com", "0123123123", "Phu Yen");
+	INSERT INTO customers (ma_kh,ten_kh,mat_khau,ngay_sinh,gioi_tinh,email,sdt,dia_chi) VALUES
+	(2, "Nguyen Van Tuan", "tuan123", "22/05/2000", "Nam", "suri@gmail.com", "0456456456", "Lam Dong");
+	INSERT INTO customers (ma_kh,ten_kh,mat_khau,ngay_sinh,gioi_tinh,email,sdt,dia_chi) VALUES
+	(3, "Hoang Quoc Duy", "duy123", "21/03/2000", "Nam", "gnhtt@gmail.com", "0987987987", "Gia Lai");
+
+CREATE TABLE hoadon (
+	ma_hd int not null PRIMARY KEY AUTO_INCREMENT,
+	ma_kh int(11) null,
+	ngay_mua varchar(50) null,
+	tri_gia int(11) null,
+	trang_thai varchar(50) not null
+	)
+
+	INSERT INTO hoadon (ma_hd,ma_kh,ngay_mua,tri_gia,trang_thai) VALUES
+	(1001, 1,  "10/12/2020", 1200000,"Da giao");
+		INSERT INTO hoadon (ma_hd,ma_kh,ngay_mua,tri_gia,trang_thai) VALUES
+	(1002, 2,  "11/09/2020", 1300000,"Da giao");
+		INSERT INTO hoadon (ma_hd,ma_kh,ngay_mua,tri_gia,trang_thai) VALUES
+	(1003, 3,  "23/11/2020", 2155000,"Da giao");
+		INSERT INTO hoadon (ma_hd,ma_kh,ngay_mua,tri_gia,trang_thai) VALUES
+	(1004, 1,  "14/07/2020", 975000,"Da giao");
+		INSERT INTO hoadon (ma_hd,ma_kh,ngay_mua,tri_gia,trang_thai) VALUES
+	(1005, 3,  "02/01/2021", 1095000,"Da giao");
+
+
+CREATE TABLE cthd (
+	ma_hd int  null ,
+	ma_sp int(11) null,
+	so_luong int(11) null
+	)
+
+	INSERT INTO cthd (ma_hd,ma_sp,so_luong) VALUES
+	(1001, 1, 2);
+		INSERT INTO cthd (ma_hd,ma_sp,so_luong) VALUES
+	(1001, 4, 3);
+		INSERT INTO cthd (ma_hd,ma_sp,so_luong) VALUES
+	(1002, 5, 1);
+		INSERT INTO cthd (ma_hd,ma_sp,so_luong) VALUES
+	(1002, 6, 4);
+		INSERT INTO cthd (ma_hd,ma_sp,so_luong) VALUES
+	(1003, 3, 5);
+		INSERT INTO cthd (ma_hd,ma_sp,so_luong) VALUES
+	(1003, 1, 3);
+		INSERT INTO cthd (ma_hd,ma_sp,so_luong) VALUES
+	(1004, 2, 2);
+		INSERT INTO cthd (ma_hd,ma_sp,so_luong) VALUES
+	(1004, 8, 2);
+		INSERT INTO cthd (ma_hd,ma_sp,so_luong) VALUES
+	(1005, 10, 4);
+		INSERT INTO cthd (ma_hd,ma_sp,so_luong) VALUES
+	(1005, 13, 1);
+
+		CREATE TABLE sale (
+    	ma_sale int  null ,
+    	ma_sp int(11) null,
+    	ngay_nhap varchar(25),
+    	sldn int(11) null,
+    	sldb int(11) null
+    	)
+    	INSERT INTO sale (ma_sale,ma_sp,ngay_nhap,sldn,sldb) VALUES
+    	(101, 2,100,"12/01/2020", 20);
+    	INSERT INTO sale (ma_sale,ma_sp,ngay_nhap,sldn,sldb) VALUES
+    	(102, 3, 100,"14/01/2020", 26);
+    	INSERT INTO sale (ma_sale,ma_sp,ngay_nhap,sldn,sldb) VALUES
+    	(103, 4, 100,"16/01/2020", 32);
+    	INSERT INTO sale (ma_sale,ma_sp,ngay_nhap,sldn,sldb) VALUES
+    	(104, 5, 100,"21/01/2020", 12);
+    	INSERT INTO sale (ma_sale,ma_sp,ngay_nhap,sldn,sldb) VALUES
+    	(105, 7, 100,"23/01/2020", 45);
+    	INSERT INTO sale (ma_sale,ma_sp,ngay_nhap,sldn,sldb) VALUES
+    	(106, 2, 100,"25/01/2020", 21);
+    	INSERT INTO sale (ma_sale,ma_sp,ngay_nhap,sldn,sldb) VALUES
+    	(107, 2,100,"12/12/2019", 31);
+    	INSERT INTO sale (ma_sale,ma_sp,ngay_nhap,sldn,sldb) VALUES
+    	(108, 2, 100,"24/12/2019", 11);
+
+
+
+    	id int not null,
+        noi_san_xuat varchar(50) null,
+        tinh_trang varchar(50) null,
+        chat_lieu_vo VARBINARY(512) null,
+        chat_lieu_mat VARBINARY(512) null,
+        nang_luong varchar(50) null,
+        chong_nuoc VARBINARY(512) null,
+        kich_thuoc_mat VARBINARY(512) null,
+        kich_thuoc_day varchar(50) null,
+        CONSTRAINT prim_pm PRIMARY KEY (id)
+        )
+
+        				INSERT into ctsp (id,noi_san_xuat,tinh_trang,chat_lieu_vo,chat_lieu_mat,nang_luong,chong_nuoc,kich_thuoc_mat,kich_thuoc_day) values
+        				(1,"Đức","hàng mới","Thép cao cấp không ghỉ","Kính cao cấp chống xước","Chạy cơ","5ATM","44mm","22mm");
+        				INSERT into ctsp (id,noi_san_xuat,tinh_trang,chat_lieu_vo,chat_lieu_mat,nang_luong,chong_nuoc,kich_thuoc_mat,kich_thuoc_day) values
+        				(2,"Ý","hàng mới","Thép cao cấp không ghỉ","Kính cao cấp chống xước","Chạy cơ","5ATM","44mm","22mm");
+        				INSERT into ctsp (id,noi_san_xuat,tinh_trang,chat_lieu_vo,chat_lieu_mat,nang_luong,chong_nuoc,kich_thuoc_mat,kich_thuoc_day) values
+        				(3,"Anh","hàng mới","Thép cao cấp không ghỉ","Kính cao cấp chống xước","Chạy cơ","5ATM","44mm","22mm");
+        				INSERT into ctsp (id,noi_san_xuat,tinh_trang,chat_lieu_vo,chat_lieu_mat,nang_luong,chong_nuoc,kich_thuoc_mat,kich_thuoc_day) values
+        				(4,"Mỹ","hàng mới","Thép cao cấp không ghỉ","Kính cao cấp chống xước","Chạy cơ","5ATM","44mm","22mm");
+        				INSERT into ctsp (id,noi_san_xuat,tinh_trang,chat_lieu_vo,chat_lieu_mat,nang_luong,chong_nuoc,kich_thuoc_mat,kich_thuoc_day) values
+        				(5,"Việt Nam","hàng mới","Thép cao cấp không ghỉ","Kính cao cấp chống xước","Chạy cơ","5ATM","44mm","22mm");
+        				INSERT into ctsp (id,noi_san_xuat,tinh_trang,chat_lieu_vo,chat_lieu_mat,nang_luong,chong_nuoc,kich_thuoc_mat,kich_thuoc_day) values
+        				(6,"Thái Lan","hàng mới","Thép cao cấp không ghỉ","Kính cao cấp chống xước","Chạy cơ","5ATM","44mm","22mm");
+        				INSERT into ctsp (id,noi_san_xuat,tinh_trang,chat_lieu_vo,chat_lieu_mat,nang_luong,chong_nuoc,kich_thuoc_mat,kich_thuoc_day) values
+        				(7,"Đức","hàng mới","Thép cao cấp không ghỉ","Kính cao cấp chống xước","Chạy cơ","5ATM","44mm","22mm");
+        				INSERT into ctsp (id,noi_san_xuat,tinh_trang,chat_lieu_vo,chat_lieu_mat,nang_luong,chong_nuoc,kich_thuoc_mat,kich_thuoc_day) values
+        				(8,"Đức","hàng mới","Thép cao cấp không ghỉ","Kính cao cấp chống xước","Chạy cơ","5ATM","44mm","22mm");
+        				INSERT into ctsp (id,noi_san_xuat,tinh_trang,chat_lieu_vo,chat_lieu_mat,nang_luong,chong_nuoc,kich_thuoc_mat,kich_thuoc_day) values
+        				(9,"Đức","hàng mới","Thép cao cấp không ghỉ","Kính cao cấp chống xước","Chạy cơ","5ATM","44mm","22mm");
+        				INSERT into ctsp (id,noi_san_xuat,tinh_trang,chat_lieu_vo,chat_lieu_mat,nang_luong,chong_nuoc,kich_thuoc_mat,kich_thuoc_day) values
+        				(10,"Đức","hàng mới","Thép cao cấp không ghỉ","Kính cao cấp chống xước","Chạy cơ","5ATM","44mm","22mm");
+        				INSERT into ctsp (id,noi_san_xuat,tinh_trang,chat_lieu_vo,chat_lieu_mat,nang_luong,chong_nuoc,kich_thuoc_mat,kich_thuoc_day) values
+        				(11,"Đức","hàng mới","Thép cao cấp không ghỉ","Kính cao cấp chống xước","Chạy cơ","5ATM","44mm","22mm");
+        				INSERT into ctsp (id,noi_san_xuat,tinh_trang,chat_lieu_vo,chat_lieu_mat,nang_luong,chong_nuoc,kich_thuoc_mat,kich_thuoc_day) values
+        				(12,"Đức","hàng mới","Thép cao cấp không ghỉ","Kính cao cấp chống xước","Chạy cơ","5ATM","44mm","22mm");
+        				INSERT into ctsp (id,noi_san_xuat,tinh_trang,chat_lieu_vo,chat_lieu_mat,nang_luong,chong_nuoc,kich_thuoc_mat,kich_thuoc_day) values
+        				(14,"Đức","hàng mới","Thép cao cấp không ghỉ","Kính cao cấp chống xước","Chạy cơ","5ATM","44mm","22mm");
+
+
+        				CREATE TABLE binhluan (
+                            	ma_bl int not null null primary key,
+                        			ma_kh int  null ,
+                            	ma_sp int(11) null,
+                            	noi_dung varchar(500)
+
+                            	)
